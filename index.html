@@ -1,46 +1,46 @@
 <button id="Copy">GARANTi BANKASI</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR18  0006  2001  1520  0006  2985  70" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR180006200115200006298570" /> 
 </p>
 
 <button id="Copy1">iS BANKASI</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR75  0006  4000  0014  3001  6422  69" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR750006400000143001642269" /> 
 </p>
 
 <button id="Copy2">AKBANK</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR85  0004  6001  0788  8000  1671  81" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR850004600107888000167181" /> 
 </p>
 
 <button id="Copy3">YAPI KREDi BANKASI</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR88  0006  7010  0000  0095  7594  36" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR880006701000000095759436" /> 
 </p>
 
 <button id="Copy4">FiNANSBANK</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR91  0011  1000  0000  0058  1183  60" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR910011100000000058118360" /> 
 </p>
 
 <button id="Copy5">HALKBANK</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR13  0001  2009  2560  0010  2604  17" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR130001200925600010260417" /> 
 </p>
 
 <button id="Copy6">ZiRAAT BANKASI</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR13  0001  0000  5070  3293  9850  01" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR130001000050703293985001" /> 
 </p>
 
 <button id="Copy7">VAKIFBANK</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR64  0001  5001  5800  7305  1855  78" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR640001500158007305185578" /> 
 </p>
 
 <button id="Copy8">TEB</button>
 <p>
-<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR64  0003  2000  0000  0025  9863  30" /> 
+<input onClick="this.setSelectionRange(0, this.value.length)" size="35" value="TR640003200000000025986330" /> 
 </p>
 
 
@@ -48,39 +48,39 @@
 
 <script>
 function Clipboard_CopyTo(value) {
-  var tempInput = document.createElement("input");
-  tempInput.value = value;
-  document.body.appendChild(tempInput);
-  tempInput.select();
-  document.execCommand("copy");
-  document.body.removeChild(tempInput);
+var tempInput = document.createElement("input");
+tempInput.value = value;
+document.body.appendChild(tempInput);
+tempInput.select();
+document.execCommand("copy");
+document.body.removeChild(tempInput);
 }
 
 document.querySelector('#Copy').onclick = function() {
-  Clipboard_CopyTo('TR18  0006  2001  1520  0006  2985  70');
+Clipboard_CopyTo('TR180006200115200006298570');
 }
 document.querySelector('#Copy1').onclick = function() {
-  Clipboard_CopyTo('TR75  0006  4000  0014  3001  6422  69');
+Clipboard_CopyTo('TR750006400000143001642269');
 }
 document.querySelector('#Copy2').onclick = function() {
-  Clipboard_CopyTo('TR85  0004  6001  0788  8000  1671  81');
+Clipboard_CopyTo('TR850004600107888000167181');
 }
 document.querySelector('#Copy3').onclick = function() {
-  Clipboard_CopyTo('TR88  0006  7010  0000  0095  7594  36');
+Clipboard_CopyTo('TR880006701000000095759436');
 }
 document.querySelector('#Copy4').onclick = function() {
-  Clipboard_CopyTo('TR91  0011  1000  0000  0058  1183  60');
+Clipboard_CopyTo('TR910011100000000058118360');
 }
 document.querySelector('#Copy5').onclick = function() {
-  Clipboard_CopyTo('TR13  0001  2009  2560  0010  2604  17');
+Clipboard_CopyTo('TR130001200925600010260417');
 }
 document.querySelector('#Copy6').onclick = function() {
-  Clipboard_CopyTo('TR13  0001  0000  5070  3293  9850  01');
+Clipboard_CopyTo('TR130001000050703293985001');
 }
 document.querySelector('#Copy7').onclick = function() {
-  Clipboard_CopyTo('TR64  0001  5001  5800  7305  1855  78'); 
+Clipboard_CopyTo('TR640001500158007305185578'); 
 }
 document.querySelector('#Copy8').onclick = function() {
-  Clipboard_CopyTo('TR64  0003  2000  0000  0025  9863  30');
+Clipboard_CopyTo('TR640003200000000025986330');
 }
 </script>
